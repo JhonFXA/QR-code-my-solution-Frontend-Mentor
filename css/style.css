@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--light-gray);
+    font-family: 'Karla', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+   
+}
+
+.card {
+    width: 18rem;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 5px 10px;
+}
+
+.card img {
+    border-radius: 12px;
+}
+
+.card-title {
+    display: block;
+    font-weight: 700;
+    font-size: 17px;
+    color: var(--dark-blue);
+    text-align: center;
+}
+
+.card-subtitle {
+    font-weight: 400;
+    color: var(--grayish-blue);
+    font-size: 15px;
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: 30px;
+}
+
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+    }
