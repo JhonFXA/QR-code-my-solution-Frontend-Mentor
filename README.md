@@ -42,8 +42,8 @@ In this project i was able to train my HTML and CSS skills by using Bootstrap, t
  <div class="card">
     <img class="card-img-top" src="./images/image-qr-code.png" alt="QR Code">
     <div class="card-body">
-  <span class="card-title">Improve your front-end skills by building projects</span>
-  <span class="card-subtitle">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</span>
+  <h1 class="card-title">Improve your front-end skills by building projects</h1>
+  <p class="card-subtitle">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
   </div>
 </div>
 ```
